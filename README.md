@@ -14,7 +14,7 @@ This guide is for those who cannot connect to the server through VPN tunnel, and
 
 5: Generate install script (take note of --auth-key=<your auth key>, it will be used later).
 
-6: Go to admin page (https://login.tailscale.com/admin/machines), then name the machine as kmitl-a100 (optional, but will be usful when ssh with the domain name)
+6: Go to [admin page](https://login.tailscale.com/admin/machines), then name the machine as kmitl-a100 (optional, but will be usful when ssh with the domain name)
 
 7: On the machine address drop down, copy  xxxxxxx.ts.net domain (this will be your ssh login hostname, instead of your IP)
 
@@ -22,8 +22,8 @@ This guide is for those who cannot connect to the server through VPN tunnel, and
 
 1: Go to the university, and connect to the KMITL's network (make sure that you're on the same LAN as the server).
 
-2: Login to your group's server listed here:
-https://docs.google.com/spreadsheets/d/1jjBZNh3XVcz6CDOFnLqIepYEmnl2-u9oQt0ke3wbnrU/edit?gid=1149126098#gid=1149126098 
+2: Login to your group's server [listed here](
+https://docs.google.com/spreadsheets/d/1jjBZNh3XVcz6CDOFnLqIepYEmnl2-u9oQt0ke3wbnrU/edit?gid=1149126098#gid=1149126098).
 
 3: Add this to /etc/profile at the end:
 
@@ -86,3 +86,6 @@ ssh a100@kmitl-a100.tailxxxxxx.ts.net
 # BONUS
 
 To share with your teammates, go to admin page, and find ... on your A100 instance. Click "Share..." > Copy share link > Reusabe link to share with your colleague :D
+
+You can also install [live share](https://www.youtube.com/watch?v=A2ceblXTBBc) extension, for easy live collaboration as well!
+
