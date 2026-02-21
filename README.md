@@ -89,3 +89,11 @@ To share with your teammates, go to admin page, and find ... on your A100 instan
 
 You can also install [live share](https://www.youtube.com/watch?v=A2ceblXTBBc) extension, for easy live collaboration as well!
 
+# Want HTTPS?
+
+If you want HTTPS, you can proxy port by running this command on the server:
+
+```bash
+sudo tailscale serve --bg http://localhost:<port to proxy>
+```
+
