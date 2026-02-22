@@ -28,7 +28,7 @@ https://docs.google.com/spreadsheets/d/1jjBZNh3XVcz6CDOFnLqIepYEmnl2-u9oQt0ke3wb
 3: Add this to /etc/profile at the end:
 
 ```bash
-if ! pgrep "tailscaled" >/dev/null 2>&1; then
+if ! pgrep -f "tailscaled" >/dev/null 2>&1; then
   echo "Starting tailscale reverse proxy daemon..."
   nohup tailscaled \
     --tun=userspace-networking \
